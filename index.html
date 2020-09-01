@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="Access-Control-Allow-Origin" content="../source/musiclist.json"> -->
+    <title>QQ音乐，让你的生活充满乐趣</title>
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <!-- logo区域 -->
+        <h1 class="logo">
+            <a href="javascipt:;" title="QQ音乐"></a>
+        </h1>
+        <!-- 登录信息 -->
+        <div class="header-login">
+            <a href="javascript:;">登录</a>
+            <a href="javascript:;">设置</a>
+        </div>
+    </header>
+    <!-- 音乐展示主体 -->
+    <section class="conter">
+        <div class="conter-in">
+            <!-- 歌曲内容部分 -->
+            <div class="conter-left">
+                <div class="conter-top">
+                    <span><i></i>收藏</span>
+                    <span><i></i>添加到</span>
+                    <span><i></i>下载</span>
+                    <span><i></i>删除</span>
+                    <span><i></i>清空列表</span>
+                </div>
+                <div class="conter-list" data-mcs-theme="minimal">
+                    <ul>
+                        <li class="music-title">
+                            <div class="music-check">
+                                <i></i>
+                            </div>
+                            <div class="music-number"></div>
+                            <div class="music-name">歌曲</div>
+                            <div class="music-singer">歌手</div>
+                            <div class="music-timer">时长</div>
+                        </li>
+						<li class="music-con">
+							
+						</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 歌曲图片，歌词等 -->
+            <div class="conter-right">
+                <div class="song-info">
+                    <a href="javascript:;">
+                        <img src="images/T002R300x300M000002m6eTJ4Qh7ex.jpg" alt="">
+                    </a>
+                    <div class="song-name">
+                        歌曲名称：
+                        <a href="javascript:;"></a>
+                    </div>
+                    <div class="song-singer">
+                        歌手名：
+                        <a href="javascript:;"></a>
+                    </div>
+                    <div class="song-ablum">
+                        专辑名：
+                        <a href="javascript:;"></a>
+                    </div>
+                </div>
+                <div class="song-text">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 控制进度条、音量等 -->
+    <footer class="foot">
+        <div class="foot-in">
+            <a href="javascript:;" title="alt+←" class="btn-prev"></a>
+            <a href="javascript:;" title="空格" class="btn-play"></a>
+            <a href="javascript:;" title="alt+→" class="btn-next"></a>
+            <div class="player-music">
+                <div class="player-music-name"></div>
+                <div class="player-music-timer"></div>
+                <div class="player-music-progress">
+                    <div class="progress-bar">
+                        <div class="progress-dot"></div>
+                    </div> 
+                </div>
+            </div>
+            <a href="javascript:;" class="btn-mode marginR"></a>
+            <a href="javascript:;" class="btn-fav marginR"></a>
+            <a href="javascript:;" class="btn-down marginR"></a>
+            <a href="javascript:;" class="btn-comment marginR"></a>
+            <a href="javascript:;" class="btn-only marginR"></a>
+            <div class="player-voice">
+                <a href="javascript:;" class="voice-btn"></a>
+                <div class="voice-music-progress">
+                    <div class="voice-progress-bar">
+                        <div class="voice-progress-dot"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <audio src=""></audio>
+    <!-- 背景-->
+    <div class="music-bg"></div>
+    <div class="music-mask"></div>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="source/musiclist.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/lyric.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        // console.log(window);
+    </script>
+</body>
+</html>
